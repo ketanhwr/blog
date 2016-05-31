@@ -4,7 +4,7 @@ email:       ketangupta1897@gmail.com
 author:      Ketan Gupta
 description: "Ketan Gupta's personal blog!"
 baseurl:     "/blog"
-url:         "http://ketanhwr.github.io"
+url:         "http://ketangupta.in"
 date_format: "%b %-d, %Y"
 
 # Google services
