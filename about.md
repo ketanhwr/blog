@@ -5,16 +5,18 @@ permalink: /about/
 tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+I'm a first year undergraduate Computer Science student at Indian Institute of Technology, Roorkee.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+I grew up in Haridwar and did my schooling from Delhi Public School, Ranipur. I learned about BASIC, Visual Studio, MySQL, C, C++ and Java from the school curriculum itself! But I exploited the internet and learned HTML, CSS, Javascript, jQuery and much more!
 
-Thanks to the following:
+I am one of the founding members of Progred, my school's computer club, which conducted lectures, workshops and competitions for other students interested in programming and robotics.
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+My personal interests are game development, web development, competitive programming, network security, cooking (as well as eating), badminton, table tennis and TV shows.
+
+I'm a developer at [SDSLabs](https://sdslabs.co), an awesome group of students constantly striving to innovate and foster technical activities at IIT Roorkee.
+
+I'm a programmer at [PAG](https://pag.sdslabs.co), a group of enthusiastic and young programmers in IIT Roorkee operating with the aim of improving the algorithmic, mathematical and programatically problem solving capability of students of IIT Roorkee.
+
+I'm also a web developer at [WatchOut! News Agency](http://wona.co.in), the official news magazine of IIT Roorkee.
+
+Apart from technical activities, I play badminton and table tennis. I'm also a TV show fanatic (Dexter being one of my favourite TV shows).
