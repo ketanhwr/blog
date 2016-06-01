@@ -20,3 +20,5 @@ I'm a programmer at [PAG](https://pag.sdslabs.co), a group of enthusiastic and y
 I'm also a web developer at [WatchOut! News Agency](http://wona.co.in), the official news magazine of IIT Roorkee.
 
 Apart from technical activities, I play badminton and table tennis. I'm also a TV show fanatic (Dexter being one of my favourite TV shows).
+
+You can access my Resume here: [Resume](../resume.pdf)
