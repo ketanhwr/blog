@@ -9,7 +9,7 @@ I'm a first year undergraduate Computer Science student at Indian Institute of T
 
 I grew up in Haridwar and did my schooling from Delhi Public School, Ranipur. I learned about BASIC, Visual Studio, MySQL, C, C++ and Java from the school curriculum itself! But I exploited the internet and learned HTML, CSS, Javascript, jQuery and much more!
 
-I am one of the founding members of Progred, my school's computer club, which conducted lectures, workshops and competitions for other students interested in programming and robotics.
+I am one of the founding members of Progred, my school's computer club, which conducts lectures, workshops and competitions for other students interested in programming and robotics.
 
 My personal interests are game development, web development, competitive programming, network security, cooking (as well as eating), badminton, table tennis and TV shows.
 
