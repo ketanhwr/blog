@@ -12,7 +12,7 @@ categories: competitive sublimetext
 
 I currently use the beautiful [Brogrammer Theme](https://packagecontrol.io/packages/Theme%20-%20Brogrammer) and a few plugins along with it. This is how the UI was when I was debugging my code once.
 
-<img src="{{ site.basurl }}/images/brogrammer.png" alt="Couldn't Load Image" />
+<img src="{{ site.baseurl }}/images/brogrammer.png" alt="Couldn't Load Image" />
 
 _I was not able to find any error in my code so I made `generator.cpp` to generate random test cases and `brute.cpp` to generate an output file from the test cases using brute force. I then cross checked the output from my code's output. Yeah, I know, but it worked._
 
