@@ -2,9 +2,10 @@
 layout:     post
 title:      Sublime Text for Competitive Programming
 date:       2016-06-28 15:31:19
-summary:    Custom C++ Build System for Linux/Mac users to compile and run directly in Sublime Text.
+summary:    Custom C++ Build System for Sublime Text users to compile and run directly in the editor itself.
 categories: competitive sublimetext
 ---
+_Update: Added details for Windows users as well._
 
 [Sublime Text](https://www.sublimetext.com/) is one of the most popular text editor these days. Its shortcuts, user interface, plugins and themes are responsible for its incredible popularity among programmers.
 
@@ -16,7 +17,7 @@ I currently use the beautiful [Brogrammer Theme](https://packagecontrol.io/packa
 
 _I was not able to find any error in my code so I made `generator.cpp` to generate random test cases and `brute.cpp` to generate an output file from the test cases using brute force. I then cross checked the output from my code's output. Yeah, I know, but it worked._
 
-### Compiling and Running
+### Compiling and Running in Linux
 As a competitive programmer, I am always looking for ways to code and test faster. This helps a lot when you are participating in contests where time matters a lot (Codeforces, for example). So as an Ubuntu user, I don't like it when I have to open Terminal everytime and type this:
 
 {% highlight bash %}
@@ -81,8 +82,41 @@ int main()
 
 If you now run the program, you will see `You entered: 42` in the Sublime Text console.
 
-### What about Windows users?
-You can also setup Custom Build Systems in Windows. I have tried a lot tweaking with it in Windows and I was finally able to get Command Prompt up and running with my code. But that was a long time ago, so I have lost that `.build-system` file. I'll add the JSON data for Windows Build System too as soon as I get it up and running.
+### Windows Users
+First, let's install `g++`. _Follow these steps even if you have g++ installed._
+
+Download this self-extracting archive: [Click here to download MinGW](https://nuwen.net/files/mingw/mingw-14.0-without-git.exe)
+
+<center><img src="{{ site.baseurl }}/images/mingw.png" alt="Couldn't Load Image" /></center>
+
+Extract the files to `C:\` and all the files will be copied to `C:\MinGW`.
+
+<center><img src="{{ site.baseurl }}/images/mingw2.png" alt="Couldn't Load Image" /></center>
+
+Now head over to Sublime Text and make a new Build System (`Tools > Build System > New Build System...`). Now copy over this JSON data to the newly created file and save it.
+
+{% highlight json %}
+{
+    "cmd": ["C:\\MinGW\\bin\\g++", "${file}", "-o", "${file_path}\\${file_base_name}"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c, source.c++",
+    "shell": "true",
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["start", "cmd.exe", "@cmd", "/k", "$file_base_name"]
+        }
+    ]
+}
+{% endhighlight %}
+
+Now choose this particular build system (`Tools > Build System > yourBuildSystem`) and you're done! Now, you can code up in C++ and after saving the file, use `Ctrl+Shift+B` and press `Enter` to compile. And after compiling, use the same key combination and choose the `Run` variant and command prompt will run with your program.
+
+_If you face any issues, make sure that you have g++ setup correctly. Also, feel free to comment._
+
+Credits to [nuwen.net](https://nuwen.net/) for their awesome MinGW Distro!
 
 ### Build System for other languages
 You can go through these links for more knowledge about Custom Build Systems in Sublime Text:
