@@ -1,0 +1,15 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+tags: archive
+---
+
+{% for post in site.posts %}
+  {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% if currentyear != year %}
+    <h2>{{ currentyear }}</h2>
+    {% capture year %}{{currentyear}}{% endcapture %} 
+  {% endif %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><p>{{ post.title }}</a> <ran style="color:#aaa;font-size:0.8em;">({{post.date | date_to_string}})</ran></p>
+{% endfor %}
