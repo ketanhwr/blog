@@ -5,7 +5,7 @@ date:       2016-06-28 15:31:19
 summary:    Custom C++ Build System for Sublime Text users to compile and run directly in the editor itself.
 categories: competitive sublimetext
 ---
-_Update: Added details for Windows users as well._
+_Update: Fixed details for Windows users._
 
 [Sublime Text](https://www.sublimetext.com/) is one of the most popular text editor these days. Its shortcuts, user interface, plugins and themes are responsible for its incredible popularity among programmers.
 
@@ -27,7 +27,7 @@ g++ randomFile.cpp -o randomFile
 
 Sublime Text has the power of building too! The Build System 'C++ Single File' works like a charm but it fails to work when you want to give some input from stdin. So after experimenting with the 'Custom Build System' tool, I made a custom Build System. In the 'Build System', choose 'New Build System...' and enter the following JSON data in the newly opened file.
 
-_Note: This might not work for Mac users. Read the next section for this._
+_Note: This might not work for Mac users. Read the next section for this. Also, make sure that you don't have any folder with an space in between its name._
 
 {% highlight json %}
 {
@@ -106,7 +106,7 @@ Now head over to Sublime Text and make a new Build System (`Tools > Build System
     [
         {
             "name": "Run",
-            "cmd": ["start", "cmd.exe", "@cmd", "/k", "$file_base_name"]
+            "cmd": ["start", "cmd.exe", "@cmd", "/k", "${file_path}\\${file_base_name}"]
         }
     ]
 }
