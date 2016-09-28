@@ -39,7 +39,7 @@ _Note: This might not work for Mac users. Read the next section for this. Also, 
   [ 
     {
       "name": "Run",
-      "cmd": ["bash", "-c", "g++ -std=c++0x '${file}' -o '${file_path}/${file_base_name}' &&  xterm -e bash -c '${file_path}/${file_base_name}; read'"]  
+      "cmd": ["bash", "-c", "g++ -std=c++0x '${file}' -o '${file_path}/${file_base_name}' &&  xterm -e bash -c '\"${file_path}/${file_base_name}\" ; read'"]  
     }
   ]    
 }
@@ -49,7 +49,7 @@ Save it by some random name and now choose that Build System for building it. No
 
 For copying and pasting test cases into the terminal, copy it first from your source, and then in the terminal use `Shift+Insert` to paste in into the terminal.
 
-_Note: You can change the terminal from `xterm` to any other of your choice as well._
+_Note: You can change the terminal from `xterm` to any other of your choice as well. I personally, use `terminator`._
 
 ### Mac Users
 _(This will work for Linux users too.)_
