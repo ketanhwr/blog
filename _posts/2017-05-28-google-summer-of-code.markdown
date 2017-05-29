@@ -51,7 +51,7 @@ His proposal was a big help, and I took it as a template for my proposal. I quic
 <center style="font-size: 0.9em"><i>My total contribution before submitting the final proposal.</i></center>
 <br/>
 
-Due to lack of time, and quizzes and assignments piling up, I decided to submit my proposal in a state I wasn't very happy with. I slowly lost confidence since I hadn't contributed for some while and number of people submitting patches increased with time. I still had some hope of getting selected, because I remained the highest contributor till the results came.
+Due to lack of time, and quizzes and assignments piling up, I decided to submit my proposal in a state I wasn't very happy with. I slowly lost confidence since I hadn't contributed for some while and number of students submitting patches increased with time. I still had some hope of getting selected, because I remained the highest contributor till the results came.
 
 ## Result
 
