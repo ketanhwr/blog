@@ -12,7 +12,7 @@ categories: gsoc development
 
 ## AbstractTileSelectionTool and Move Selection Tool
 
-I recently introduced the `AbstractTileSelectionTool` in [#1620](https://github.com/bjorn/tiled/pull/1620). The main reason behind this was to reduce code duplication. This class is further inherited by `TileSelectionTool`, `MagicWantTool` and `SelectSameTileTool`.
+I recently introduced the `AbstractTileSelectionTool` in [#1620](https://github.com/bjorn/tiled/pull/1620). The main reason behind this was to reduce code duplication. This class is further inherited by `TileSelectionTool`, `MagicWandTool` and `SelectSameTileTool`.
 
 It also introduces specific tools for these three classes and as per the current plan, the move selection feature will be implemented within `AbstractTileSelectionTool` so that a selection can be moved just by using some keyboard modifiers (like GIMP) instead of introducing a new tool.
 
