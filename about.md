@@ -5,7 +5,7 @@ permalink: /about/
 tags: about
 ---
 
-I'm a second year undergraduate Computer Science student at Indian Institute of Technology, Roorkee.
+I'm a third year undergraduate Computer Science student at Indian Institute of Technology, Roorkee.
 
 I grew up in Haridwar and did my schooling from Delhi Public School, Ranipur. I learned about BASIC, Visual Studio, MySQL, C, C++ and Java from the school curriculum itself! But I exploited the internet and learned HTML, CSS, Javascript, jQuery and much more!
 
