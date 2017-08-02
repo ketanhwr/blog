@@ -18,7 +18,7 @@ I added a simple feature [here](https://github.com/bjorn/tiled/pull/1658). It en
 Current state of the pull request: [#1651](https://github.com/bjorn/tiled/pull/1651). Last 2 weeks were a bit occupied due to college but I still managed to work properly on the weekends. This task requires a lot of testing and feedback, so it's been quite slow in progression.
 
 <center><img src="{{ site.baseurl }}/images/infinite-demo.gif" alt="Couldn't Load Image" /></center>
-<center style="font-size: 0.9em; margin-bottom: 20px"><i>Working Prototype.</i></center>
+<center style="font-size: 0.9em; margin-bottom: 20px"><i>Working Prototype. (Open this in a new tab for a clearer view)</i></center>
 
 Everything I could possibly test works now, which is pretty great since I was very skeptical during the beginning if I would be able to even start it. Thanks a lot to bjorn and Ablu for their feedback and help!
 
