@@ -85,7 +85,7 @@ If you now run the program, you will see `You entered: 42` in the Sublime Text c
 ### Windows Users
 First, let's install `g++`. _Follow these steps even if you have g++ installed._
 
-Download this self-extracting archive: [Click here to download MinGW](https://nuwen.net/files/mingw/mingw-15.0-without-git.exe)
+Download this self-extracting archive: [Click here to download MinGW](https://nuwen.net/files/mingw/mingw-15.1-without-git.exe)
 
 <center><img src="{{ site.baseurl }}/images/mingw.png" alt="Couldn't Load Image" /></center>
 
