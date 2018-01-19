@@ -84,7 +84,7 @@ Taking the simple definition from wikipedia, a graph is a structure amounting to
 
 <center><img src="{{ site.baseurl }}/images/graph.png" alt="Couldn't Load Image" /></center>
 
-A directed graph is a set of nodes connected with directed edges. A directed edge is just a connected between two nodes which has a sense of direction.
+A directed graph is a set of nodes connected with directed edges. A directed edge is just a connection between two nodes which has a sense of direction.
 
 <center><img src="{{ site.baseurl }}/images/directed-graph.png" alt="Couldn't Load Image" /></center>
 
