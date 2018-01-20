@@ -35,7 +35,7 @@ Async is a very popular javascript library to avoid callback hell (and a lot of 
 
 > Determines the best order for running the AsyncFunctions in tasks, based on their requirements. Each function can optionally depend on other functions being completed first, and each function is run as soon as its requirements are satisfied.
 
-I’ll explain in detail. Suppose you have many functions. Some of these functions need the results of some other functions to run. When you have many such functions and dependencies, determining the order of execution can be a bit tricky. `async.auto` is used to solve this problem. Here is a simple code to for explanation:
+I’ll explain in detail. Suppose you have many functions. Some of these functions need the results of some other functions to run. When you have many such functions and dependencies, determining the order of execution can be a bit tricky. `async.auto` is used to solve this problem. Here is a simple code for explanation:
 
 {% highlight javascript %}
 async.auto({
