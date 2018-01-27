@@ -3,7 +3,7 @@ layout:     post
 title:      GSoC '17 - Final Report
 date:       2017-08-29 03:31:19
 summary:    This is the final report for Google Summer of code.
-categories: gsoc development
+categories: gsoc
 ---
 
 ## General Improvements and Bug Fixes

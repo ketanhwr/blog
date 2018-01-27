@@ -17,14 +17,14 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    true
-ajaxify_contact_form: false
+ajaxify_contact_form: true
 enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
+extended_fonts: true
+enable_anchorjs: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -40,7 +40,7 @@ facebook_comments_number: 10
 github_username: ketanhwr
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: ketanhwr
 skype_username:
 steam_nickname:
 google_plus_id:

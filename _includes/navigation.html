@@ -1,5 +1,5 @@
 {% for page in site.pages %}
-	{% if page.title != "404" and page.title != "Setup" and page.title != "Contact" %}
+	{% if page.title != "404" and page.title != "Setup"  %}
         <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	{% endif %}
 {% endfor %}

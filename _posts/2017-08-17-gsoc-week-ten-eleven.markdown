@@ -3,7 +3,7 @@ layout:     post
 title:      GSoC '17 - Week 10 and 11
 date:       2017-08-17 03:31:19
 summary:    Improving Polygon Editing Tools!
-categories: gsoc development
+categories: gsoc
 ---
 
 ## Polygon Tool Improvements

@@ -3,7 +3,7 @@ layout:     post
 title:      GSoC '17 - Week 6 and 7
 date:       2017-07-20 03:31:19
 summary:    Tinkering around with automatically resized maps!
-categories: gsoc development
+categories: gsoc
 ---
 
 ## Merged Features

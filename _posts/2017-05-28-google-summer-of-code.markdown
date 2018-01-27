@@ -3,7 +3,7 @@ layout:     post
 title:      Google Summer of Code '17
 date:       2017-05-28 05:31:19
 summary:    I got accepted into the GSoC 2017 program under the organisation Tiled!
-categories: gsoc development
+categories: gsoc
 ---
 
 <center><img src="{{ site.baseurl }}/images/gsoc-1.png" alt="Couldn't Load Image" /></center>

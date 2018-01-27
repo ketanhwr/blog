@@ -3,7 +3,7 @@ layout:     post
 title:      GSoC '17 - Week 8 and 9
 date:       2017-08-02 03:31:19
 summary:    Working prototype of infinite maps!
-categories: gsoc development
+categories: gsoc
 ---
 
 <center><img src="{{ site.baseurl }}/images/second-eval.png" alt="Couldn't Load Image" /></center>

@@ -3,7 +3,7 @@ layout:     post
 title:      GSoC '17 - Week 1
 date:       2017-06-08 05:31:19
 summary:    A review of my work in the first week with Tiled.
-categories: gsoc development
+categories: gsoc
 ---
 
 ## The 1<sup>st</sup> Patch

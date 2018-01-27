@@ -3,7 +3,7 @@ layout:     post
 title:      GSoC '17 - The past 3 weeks
 date:       2017-06-28 05:31:19
 summary:    A lot happened over the past few weeks!
-categories: gsoc development
+categories: gsoc
 ---
 
 ## Specific Tool Bar

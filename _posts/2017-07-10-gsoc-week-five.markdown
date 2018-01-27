@@ -3,7 +3,7 @@ layout:     post
 title:      GSoC '17 - Week 5
 date:       2017-07-10 03:31:19
 summary:    Getting started with infinite maps!
-categories: gsoc development
+categories: gsoc
 ---
 
 <center><img src="{{ site.baseurl }}/images/patreon-appreciation.png" alt="Couldn't Load Image" /></center>
