@@ -28,7 +28,7 @@ I decided to focus on Barnes Hut Tree algorithm for n-body simulations in partic
 
 ## Reaching Chennai
 
-I took a train from Bangalore to Chennai on 4th of January along with Kush (who was also doing an internship at Bangalore and was part of IITR contingent). Unfortunately, my seat was full of bed bugs (which I realised the next morning)
+I took a train from Bangalore to Chennai on 4th of January along with Kush (who was also doing an internship at Bangalore and was part of IITR contingent). Unfortunately, my seat was full of bed bugs (which I realised the next morning :/).
 
 <center><img src="{{ site.baseurl }}/images/interiit/cat.jpg" alt="Couldn't Load Image" style="width: 50%" /></center>
 <center style="font-size: 0.9em; margin-bottom: 40px;"><i>This little guy was my first new friend in the IITM campus.</i></center>
